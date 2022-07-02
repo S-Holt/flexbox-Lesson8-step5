@@ -160,3 +160,23 @@ footer span {
 	color: #77a466;
 	font-size: .875em;
 }
+@media all and (min-width:768px) {
+    /* Tablet styles here */
+	.bottom-section{
+		border-top: 1px solid #eee;
+		justify-content: space-between;
+		align-items:flex-start;
+	}
+
+	.section-one,
+	.section-two,
+	.section-three{
+		flex-basis: 30%;
+	}
+	
+	.section-two{
+		border-left: 1px solid #eee ;
+		border-right: 1px solid #eee ;
+		padding: 0 19px;
+	}
+}
